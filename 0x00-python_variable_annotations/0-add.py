@@ -1,6 +1,7 @@
 #!/usr/bin/evn python3
 """Add two numbers."""
 
+
 def add(a: float, b: float) -> float:
     """
     Args:
