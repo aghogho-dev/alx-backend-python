@@ -5,7 +5,6 @@ from typing import Any, Mapping, Sequence, TypeVar, Union
 
 T = TypeVar('T')
 
-
 def safely_get_value(dct: Mapping, key: Any, default: Union[T, None] = None) -> Union[Any, T]:
     """More types."""
     if key in dct:
